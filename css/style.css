@@ -14,8 +14,23 @@ header{
     padding-bottom: 250px;
 }
 
+#main li {
+    font-size: 0.8em;
+    font-weight: 600;
+    list-style-type: none;
+    padding-bottom: 25px;
+}
+
 .white-text {
     color: white;
+}
+
+.blue-text {
+    color: #0061ff;;
+}
+
+.gray-text {
+    color: #637381;
 }
 
 .blue-bg {
@@ -147,18 +162,77 @@ button {
 /* Section 1 main */
 
 .row-spacer {
+    line-height: 25px;
     padding-bottom: 40px;
 }
 
-#pencil {
-    font-size: 1em;
+.main-icon {
+    font-size: 0.8em;
     padding: 0;
 }
 
 .block {
+    padding-bottom: 25px;
     display: block;
 }
 
 .main-button-padding {
-    padding: 7px 40px;
+    padding: 7px 37px;
+}
+
+.small-hr {
+    display: block;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: none;
+    width: 45px;
+    margin: 30px 0 0 0;
+}
+
+.list-row {
+    padding-top: 50px;
+}
+
+.main-column {
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    width: 290px;
+}
+
+.title-row {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.info-row, .list-row {
+    padding: 30px;
+}
+
+.price {
+    font-size: 1.2em;
+}
+
+.info-title {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+.end-info-row {
+    font-weight: 600;
+    font-size: 0.8em;
+    padding-top: 25px;
+}
+
+.end-info-row a {
+    font-weight: 600;
+}
+
+.list-title {
+    padding-bottom: 20px;
+}
+
+.icon.text {
+    font-size: 1.08em;
 }
