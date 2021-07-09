@@ -194,6 +194,7 @@ button {
 }
 
 .main-column {
+    display: inline-block;
     border: 1px solid #e0e0e0;
     border-top: none;
     width: 290px;
@@ -235,4 +236,8 @@ button {
 
 .icon.text {
     font-size: 1.08em;
+}
+
+#main-central-column{
+    margin: 0 50px;
 }
