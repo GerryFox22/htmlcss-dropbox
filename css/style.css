@@ -9,3 +9,53 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.white-text {
+    color: white;
+}
+
+.blue-bg {
+    background-color: #0061ff;
+}
+
+
+/* Header code */
+
+/* Header Toolbar code */
+
+#header li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+#header a {
+    text-decoration: none;
+    color: rgb(37, 21, 21);
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.left-toolbar, 
+.right-toolbar,
+.dropbox-logo,
+.toolbar-list {
+    display: inline-block;
+}
+
+.dropbox-logo {
+    vertical-align: middle;
+    padding-right: 30px;
+}
+
+.toolbar-container {
+    padding: 30px;
+}
+
+.right-toolbar {
+    padding-left: 560px;
+}
+
+button {
+    padding: 4px 13px;
+}
+
