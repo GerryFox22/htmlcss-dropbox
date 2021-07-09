@@ -117,6 +117,8 @@ button {
 
 /* Main section 1 */
 
+/* Section 1 header */
+
 #main-section1 {
     width: 1050px;
     margin: 0 auto;
@@ -129,6 +131,7 @@ button {
 }
 
 .checkbox {
+    padding-right: 15px;
     display: inline-block;
 }
 
@@ -136,3 +139,26 @@ button {
     padding-bottom: 35px;
 }
 
+.checkbox .checkbox-text {
+    font-weight: 600;
+    font-size: .9em;
+}
+
+/* Section 1 main */
+
+.row-spacer {
+    padding-bottom: 40px;
+}
+
+#pencil {
+    font-size: 1em;
+    padding: 0;
+}
+
+.block {
+    display: block;
+}
+
+.main-button-padding {
+    padding: 7px 40px;
+}
