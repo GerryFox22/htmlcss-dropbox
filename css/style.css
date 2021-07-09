@@ -10,6 +10,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    padding-bottom: 250px;
+}
+
 .white-text {
     color: white;
 }
@@ -106,5 +110,29 @@ button {
 
 #jumbo-button-padding {
     padding-bottom: 10px;
+}
+
+
+/* Main */
+
+/* Main section 1 */
+
+#main-section1 {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.section-title h2 {
+    padding-bottom: 45px;
+    font-size: 2.34em;
+
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.section-title {
+    padding-bottom: 35px;
 }
 
