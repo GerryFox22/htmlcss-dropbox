@@ -55,7 +55,7 @@ p {
 #header a {
     text-decoration: none;
     color: rgb(37, 21, 21);
-    font-size: .8em;
+    font-size: .9em;
     font-weight: 600;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 .right-toolbar {
-    padding-left: 526px;
+    padding-left: 650px;
 }
 
 button {
@@ -87,13 +87,13 @@ button {
 /* Header Jumbo */
 
 .jumbo-container {
-    height: 650px;
+    height: 700px;
     background-color: #b4d0e7;
     padding: 80px 130px;
 }
 
 .jumbo-title {
-    font-size: 4.5em;
+    font-size: 5em;
     padding-bottom: 35px;
 }
 
@@ -110,7 +110,7 @@ button {
 
 .jumbo-img {
     padding-left: 100px;
-    width: 900px;
+    width: 1000px;
     vertical-align: top;
 }
 
@@ -118,9 +118,13 @@ button {
     width: 100%;
 }
 
+#jumbo-button {
+    font-size: 1em;
+}
 
 #jumbo-p-padding {
-    padding-bottom: 20px;
+    font-size: 1em;
+    padding-bottom: 30px;
 }
 
 #jumbo-button-padding {
@@ -177,7 +181,7 @@ button {
 }
 
 .main-button-padding {
-    padding: 7px 37px;
+    padding: 7px 48px;
 }
 
 .small-hr {
@@ -194,10 +198,13 @@ button {
 }
 
 .main-column {
+    vertical-align: middle;
     display: inline-block;
     border: 1px solid #e0e0e0;
     border-top: none;
-    width: 290px;
+    width: 313px;
+    height: 1000px;
+    
 }
 
 .title-row {
@@ -216,6 +223,7 @@ button {
 }
 
 .info-title {
+    font-weight: 800;
     font-size: 1.4em;
     padding-bottom: 10px;
 }
@@ -235,9 +243,42 @@ button {
 }
 
 .icon.text {
-    font-size: 1.08em;
+    font-size: 1.2em;
+}
+
+.no-bold-text {
+    font-weight: 500;
+   
 }
 
 #main-central-column{
+    vertical-align: top;
     margin: 0 50px;
+}
+
+#section1-main {
+    padding-bottom: 50px;
+}
+
+
+/* Section 1 footer */
+
+.section1-footer-text {
+    display: inline-block;
+    padding: 30px 0 30px 30px;
+}
+
+.section1-footer-button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 30px 30px 0;
+}
+
+#section1-footer {
+    border: 1px solid #e0e0e0;
+    border-top: none;
+}
+
+#section1-footer-button {
+    padding: 7px 80px;
 }
