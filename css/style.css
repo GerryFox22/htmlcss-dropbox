@@ -14,6 +14,10 @@ header{
     padding-bottom: 250px;
 }
 
+img {
+    width: 100%;
+}
+
 #main li {
     font-size: 0.8em;
     font-weight: 600;
@@ -281,4 +285,47 @@ button {
 
 #section1-footer-button {
     padding: 7px 80px;
+}
+
+/* Main section  */
+
+.section2-img-container {
+    display: inline-block;
+    width: 550px;
+}
+.section2-text-container {
+    vertical-align: top;
+    display: inline-block;
+    width: 495px;
+    padding: 45px 0 0 45px;
+}
+
+#main-section2-button {
+    background-color: white;
+}
+
+#main-section2-button {
+    font-size: 0.9em;
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#main-section2 p {
+    padding-bottom: 25px;
+    font-size: 1em;
+}
+
+#main-section2 h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+
+#main-section2 {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 150px 0;
 }
