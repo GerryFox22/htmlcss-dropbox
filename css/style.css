@@ -41,6 +41,10 @@ img {
     background-color: #0061ff;
 }
 
+span.word-underline {
+    text-decoration: underline;
+}
+
 p {
     font-size: .8em;
     font-weight: 600;
@@ -80,7 +84,7 @@ p {
 }
 
 .right-toolbar {
-    padding-left: 650px;
+    padding-left: 480px;
 }
 
 button {
@@ -93,11 +97,17 @@ button {
 .jumbo-container {
     height: 700px;
     background-color: #b4d0e7;
-    padding: 80px 130px;
+}
+.jumbo-title-container {
+    padding: 80px 130px 0 130px;
+}
+
+.jumbo-elements-container {
+    padding-left: 130px;
 }
 
 .jumbo-title {
-    font-size: 5em;
+    font-size: 4.5em;
     padding-bottom: 35px;
 }
 
@@ -113,8 +123,8 @@ button {
 }
 
 .jumbo-img {
-    padding-left: 100px;
-    width: 1000px;
+    padding-left: 50px;
+    width: 900px;
     vertical-align: top;
 }
 
@@ -287,7 +297,7 @@ button {
     padding: 7px 80px;
 }
 
-/* Main section  */
+/* Main section 2 */
 
 .section2-img-container {
     display: inline-block;
@@ -329,3 +339,62 @@ button {
     margin: 0 auto;
     padding: 150px 0;
 }
+
+/* Main section 3 */
+
+/* Section 3 main */
+
+.row-img {
+    width: 300px;
+}
+
+.row-column.row-column {
+    display: inline-block;
+    width: 300px;
+}
+
+.row-column h4 {
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+
+.row-column p {
+    font-size: 0.9em;
+}
+
+.section3-main-row {
+    padding-bottom: 100px;
+}
+
+.section3-footer {
+    padding: 100px 498px 0 0;
+}
+
+.section3-footer-button {
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.section3-header {
+    padding-bottom: 40px;
+}
+
+
+.central-column {
+    margin: 0 70px;
+
+}
+
+#main-section3 h2 {
+    padding-bottom: 20px;
+    font-size: 2.34em;
+}
+
+
+#main-section3 {
+    width: 1050px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+/* Main section 4 */
