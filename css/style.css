@@ -394,7 +394,101 @@ button {
 #main-section3 {
     width: 1050px;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 /* Main section 4 */
+
+/* section4 main */
+
+.box-row {
+    font-size: 0;
+}
+
+.box-img {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    display: inline-block;
+
+}
+.box-img img {
+    position: absolute;
+    filter: invert(1);
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.box-text-container {
+    background-color: #f5f5f5;
+}
+
+.box-img-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box-text-container {
+    display: inline-block;
+    padding: 50px;
+    width: 647px;
+    height: 520px;
+    background-color: #f5f5f5;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.designit-logo img {
+    width: 150px;
+}
+
+.box-text-container p {
+    font-size: 0.95em;
+}
+
+.box-text-padding {
+    padding: 70px 0;
+}
+
+
+
+
+
+
+
+
+#bg-green {
+    background-color:#a2d39b;
+    border: 10px solid #d3fece;
+}
+
+#bg-granate {
+    background-color: #61082b;
+}
+
+#bg-lightblue {
+    background-color: #0093ce;
+}
+
+#bg-red {
+    background-color: #ff1c1c;
+}
+
+#bg-strongred {
+    background-color: #d5001f;
+}
+
+#bg-lightgray {
+    background-color: #b4d0e7;
+}
+
+#bg-blue{
+    background-color: #0d2481;
+}
+
+#bg-yellow {
+    background-color: #ffd830;
+}
