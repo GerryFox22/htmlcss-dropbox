@@ -454,12 +454,6 @@ button {
 }
 
 
-
-
-
-
-
-
 #bg-green {
     background-color:#a2d39b;
     border: 10px solid #d3fece;
@@ -491,4 +485,36 @@ button {
 
 #bg-yellow {
     background-color: #ffd830;
+}
+
+/* section4 footer */
+
+.section4-footer {
+    background-color: #b4d0e7;
+}
+
+.section4-footer-container {
+    padding: 130px 300px;
+}
+
+.section4-footer-title h2 {
+    font-size: 2.34em;
+    color: #61082b;
+    font-weight: 800;
+}
+
+.section4-footer-title, .section4-footer-button-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section4-footer-button-container {
+    padding-left: 320px;
+}
+
+
+#section4-footer-button {
+    padding: 8px 60px;
+    font-size: 0.9em;
+    font-weight: 600;
 }
