@@ -1,5 +1,6 @@
 /* Reset */
 
+/* General */
 *{
     margin: 0;
     padding: 0;
@@ -51,9 +52,9 @@ p {
 }
 
 
-/* Header code */
+/* Header */
 
-/* Header Toolbar code */
+/* Header Toolbar */
 
 #header li {
     display: inline-block;
@@ -84,7 +85,7 @@ p {
 }
 
 .right-toolbar {
-    padding-left: 480px;
+    padding-left: 650px;
 }
 
 button {
@@ -107,7 +108,7 @@ button {
 }
 
 .jumbo-title {
-    font-size: 4.5em;
+    font-size: 5em;
     padding-bottom: 35px;
 }
 
@@ -556,4 +557,59 @@ button {
 #main-section5 {
     width: 1050px;
     margin: 0 auto;
+}
+
+
+/* Footer */
+
+/* Footer lists */
+
+.footer-container {
+    padding: 100px 150px 0 150px;
+}
+
+.footer-column li {
+    font-size: 0.9em;
+    line-height: 30px;
+    list-style-type: none;
+}
+
+.footer-column {
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 120px;
+}
+
+
+#footer h5 {
+    font-size: 1.3em;
+    padding-bottom: 15px;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+}
+
+/* Footer underlist */
+
+.footer-underlist {
+    border-top: 1px solid white;
+    width: 120px;
+}
+
+.footer-underlist-icon {
+    font-size: 1em;
+}
+
+.footer-underlist {
+    color: rgb(102, 102, 102);
+}
+
+.footer-underlist-container {
+    padding-bottom: 35px;
+}
+
+.footer-lists {
+    padding-bottom: 100px;
 }
